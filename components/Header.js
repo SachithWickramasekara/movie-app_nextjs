@@ -9,7 +9,7 @@ import {
     SearchIcon,
     UserIcon,
 } from "@heroicons/react/outline";
-
+import logo from '../public/FLIX.png'
 
 function Header() {
   return (
@@ -23,10 +23,10 @@ function Header() {
             <HeaderItem title="Account" Icon={UserIcon}/>
         </div>
         <Image 
-        src="https://links.papareact.com/ua6"
+        src={logo}
         alt="Header-Icon"
-        width={200}
-        height={100}
+        width={100}
+        height={50}
         className="object-contain"
         />
     </header>
